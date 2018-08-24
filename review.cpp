@@ -13,7 +13,7 @@ void quick_sort(int *arr, int L, int R)
 	if(L>=R) return;
 	int i=L, j=R, first = arr[L];
 	int temp = 0;//ceshi github 
-	while(i<j)
+	while(i<j)//ceshi2 
 	{
 		while(arr[i] < first && i < j)
 			i++;
